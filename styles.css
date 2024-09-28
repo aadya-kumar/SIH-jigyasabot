@@ -1,0 +1,64 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo-section {
+    background-color: #cfe3e9;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-section h1 {
+    font-size: 2rem;
+    color: #fa905b;
+}
+
+.fa {
+    color: #fa905b;
+}
+
+.fa:hover {
+    color: #009688;
+}
+
+.faqs button, .it-support, .start-chat button, .option {
+    display: block;
+    background-color: #fae1d4;
+    color: #333;
+    border: none;
+    padding: 15px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.chat-box, .input-box, .stats {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #cfe3e9;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottom-nav a img {
+    width: 30px;
+    height: 30px;
+}
